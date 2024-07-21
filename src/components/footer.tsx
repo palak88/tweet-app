@@ -1,0 +1,17 @@
+import React from "react";
+
+import style from "./index.module.css";
+
+interface IFormFooter {
+  footerText: string;
+  linkText: string;
+}
+
+export const FormFooter: React.FC<IFormFooter> = ({ footerText, linkText }) => {
+  return (
+    <div className={style.footerContainer}>
+      <span className={style.footerText}>{footerText}</span>
+      <span className={style.linkText}>{linkText}</span>
+    </div>
+  );
+};

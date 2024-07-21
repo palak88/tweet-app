@@ -1,0 +1,76 @@
+.inputContainer {
+    display: flex;
+    width: 435px;
+}
+
+.inputField {
+    width: 415px;
+    height: 43px;
+    border-radius: 4px;
+    color: #7F8084;
+    border: 1.5px solid #35373B;
+    background-color: transparent;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: Inter;
+}
+
+.inputIcon {
+    position: relative;
+    right: 30px;
+    top: 10px;
+}
+
+.label {
+    font-family: Inter;
+    font-weight: 500;
+    color: #C5C7CA;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.heading {
+    color: #6B6C70;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Inter;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin: 10px auto;
+}
+
+.subHeading {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px auto 40px auto;
+    font-family: Inter;
+}
+
+.button {
+    background: #4A96FF;
+    width: 415px;
+    height: 43px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.footerContainer {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footerText {
+    color: #7F8084;
+}
+
+.linkText {
+    color: #C5C7CA;
+}
