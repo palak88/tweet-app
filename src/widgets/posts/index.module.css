@@ -1,0 +1,109 @@
+.posts_container {
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.header_container {
+    width: 700px;
+}
+
+.heading {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    width: 140px;
+    height: 34px;
+    color: #C5C7CA;
+    margin: 10px 0;
+}
+
+.headerText {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7F8084;
+    width: 580px;
+    height: 48px;
+    margin: 10px 0 20px 0;
+}
+
+.createPost_container {
+    width: 700px;
+    height: 223px;
+    border: 2px solid #35373B;
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    background: #27292D;
+    width: 700px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.create_post_title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    color: #C5C7CA;
+}
+
+.create_post_input {
+    width: 660px;
+    height: 78px;
+    border-radius: 8px;
+    background: #191920;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin: 20px 0;
+}
+
+.dialog_container {
+    width: 48px;
+    height: 48px;
+    background: #27292D;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+.input_text {
+    font-family: Inter;
+    font-size: 16px;
+    color: #7F8084;
+}
+
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    width: 111px;
+    height: 43px;
+    border-radius: 4px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #4A96FF;
+    border: 1px solid transparent;
+}
+
+.signup_backdrop {
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background: #00000080;
+    position: fixed;
+}

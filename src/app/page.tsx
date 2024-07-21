@@ -1,3 +1,5 @@
+"use client";
+
 import { Login } from "@/widgets/Login";
 import style from "./page.module.css";
 
