@@ -32,6 +32,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployed using Netlify
 
-- visit https://tann-trimm.netlify.app/
+- visit https://tweets-application.netlify.app/
 
 ---
